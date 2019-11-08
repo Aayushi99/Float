@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.menu {
+  height: 100px;
+  background-color: #B2D6FF;    /* Medium blue */
+
+}
+
+.sidebar {
+      float: left;
+	  width: 200px;
+  height: 300px;
+  background-color: #F09A9D;    /* Red */
+  /* margin: 0 auto; */
+}
+
+.content {
+	float: left;
+  height: 500px;
+   width: 650px; 
+  background-color: #F5CF8E;    /* Yellow */
+}
+
+.footer {
+	  clear: both;
+  height:400px;
+  background-color: #D6E9FE;    /* Light blue */
+  overflow: hidden;
+  background-color: #D6E9FE;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+    /*overflow: hidden;*/             /* Add this */
+  /*background-color: #EAEDF0;*/ 
+}
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+.column {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+
+
